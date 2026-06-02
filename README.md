@@ -5,4 +5,4 @@ Underwater object detection technology holds significant application value in fi
 ## Overall Architecture Diagram of LMFF-Net
 ![image](LMFF-Net.png)
 ## 说明：
-在后期重复仿真实验中，观察到在不同并发负载条件下的FPS存在明显波动，该现象的主要原因是系统存在并发执行的其他任务，导致GPU资源被动态分配与抢占。当并发任务增加时，仿真进程获得的GPU计算资源比例下降，引起FPS降低。
+在后期重复仿真实验中，观察到在不同并发负载条件下的FPS存在波动，该现象的主要原因是系统存在并发执行的其他任务，导致GPU资源被动态分配与抢占。当并发任务增加时，仿真进程获得的GPU计算资源比例下降，引起FPS降低。例如在后续重复表二消融实验时，a,b,c,d四组的FPS分别为178、176、182、175，与首次实验存在差异。
